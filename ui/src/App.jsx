@@ -1,7 +1,9 @@
-function App() {
+import IssueList from "./pages/IssuesList";
+
+const App = () => {
   return (
    <>
-
+   <IssueList/>
    </>
   );
 }
